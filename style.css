@@ -78,10 +78,7 @@ a {
 }
 
 .menu-toggle {
-  display: none;
-  color: white;
-  font-size: 1.8rem;
-  cursor: pointer;
+  display: none !important;
 }
 
 /* Hero Section */
@@ -518,7 +515,68 @@ footer {
   }
 }
 
+/* Hamburger menu styles */
+.menu-toggle {
+  display: none;
+}
 
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  z-index: 1100;
+}
+.hamburger span {
+  height: 4px;
+  width: 100%;
+  background: #fff;
+  margin: 5px 0;
+  border-radius: 2px;
+  transition: 0.4s;
+  display: block;
+}
 
+@media (max-width: 900px) {
+  .hamburger {
+    display: flex;
+  }
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: #34495e;
+    flex-direction: column;
+    width: 160px;
+    border-radius: 8px;
+    padding: 1rem;
+    display: none;
+    gap: 1rem;
+  }
+  .menu-toggle:checked ~ .hamburger span:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+  }
+  .menu-toggle:checked ~ .hamburger span:nth-child(2) {
+    opacity: 0;
+  }
+  .menu-toggle:checked ~ .hamburger span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+  }
+  .menu-toggle:checked ~ .nav-links {
+    display: flex;
+  }
+}
 
+/* Show nav-links when menu-toggle is checked */
+.menu-toggle:checked ~ .nav-links {
+  display: flex;
+}
 
+/* Hide nav-links by default on mobile */
+@media (max-width: 900px) {
+  .nav-links {
+    display: none;
+  }
+}
