@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kenenisa Gizaw - Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&display=swap" rel="stylesheet">
+  <style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+
+</head>
+<nav class="navbar">
+  <div class="container nav-container">
+    <h2 class="logo">Kenenisa</h2>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Kenenisa Gizaw</h1>
+      <p>Software Engineering Student & Tech Enthusiast</p>
+    </div>
+  </header>
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I’m Kenenisa Gizaw, a passionate software engineering student with a love for building creative web experiences and solving real-world problems with clean code.
+      </p>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="card">
+          <img src="assets/portfolio.png" alt="Project 1"/>
+          <h3>Personal Portfolio</h3>
+          <p>Responsive web app built with React JS.</p>
+        </div>
+        <div class="card">
+          <img src="assets/weather app.png" alt="Project 2"/>
+          <h3>Weather App</h3>
+          <p>A creative weather app built with React JS.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Font Awesome CDN (Include in <head> if not already included) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+<!-- Social Sidebar -->
+<div class="social-sidebar">
+  <a href="mailto:your@email.com" title="Email"><i class="fas fa-envelope"></i></a>
+  <a href="https://linkedin.com/in/kenenisa_gizaw" title=LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  <a href="https://github.com/kenenisagizaw" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+  <a href="https://twitter.com/kenenisa_gizaw" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+  <a href="https://wa.me/251922126985" title="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  <a href="tel:+251922126985" title="Phone"><i class="fas fa-phone-alt"></i></a>
+</div>
+
+ <!-- Contact -->
+<!-- Contact -->
+<section class="contact" id="contact" data-aos="fade-up" style="background: linear-gradient(135deg, #ecf0f3, #f5f7fa);">
+  <div class="container">
+    <h2>Contact</h2>
+
+    <div class="contact-wrapper">
+      <!-- Left side: Email & Phone -->
+      <div class="contact-info">
+        <div class="contact-card email-card">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <p>Email</p>
+            <a href="mailto:kenenisa@example.com">kenenisagizaw.28@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="contact-card phone-card">
+          <i class="fas fa-phone-alt"></i>
+          <div>
+            <p>Phone</p>
+            <a href="tel:+251912345678">+251 922126985</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right side: Message textarea and send button -->
+      <form class="contact-message" action="mailto:kenenisa@example.com" method="POST" enctype="text/plain">
+        <label for="message" style="font-weight: 600; color: #2c3e50;">Your Message</label>
+        <textarea id="message" name="message" rows="8" placeholder="Write your message here..." required></textarea>
+        <button type="submit" class="send-btn">Send</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Kenenisa Gizaw. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+
+</html>
