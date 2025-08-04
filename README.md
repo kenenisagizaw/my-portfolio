@@ -1,12 +1,12 @@
 # Kenenisa Gizaw's Portfolio
 
-![Portfolio Screenshot](./images/screenshot.png)
+![Portfolio Screenshot](./assets/myportfollio.png)
 
 ---
 
 ## Live Demo
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=vercel)](https://your-vercel-url.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=vercel)](https://my-portfolio-psi-mocha.vercel.app/)
 
 ---
 
@@ -42,32 +42,15 @@ cd my-portfolio
 Open index.html in your browser to view the site locally.
 
 Deployment
-
 To deploy your own copy:
 
- 1. Push your code to a GitHub repository.
+Push your code to a GitHub repository.
 
- 2. Connect the repository to Vercel.
+Connect the repository to Vercel.
 
- 3. Choose "Other" as the framework preset.
+Choose "Other" as the framework preset.
 
- 4. Deploy and enjoy!
-
- Folder Structure
-.
-├── index.html
-├── styles.css
-├── images/
-└── README.md
-
-Future Improvements
-Add JavaScript for enhanced interactivity (e.g., form validation)
-
-Integrate backend to handle contact form submissions
-
-Add more projects with live demos and descriptions
-
-Improve accessibility and SEO optimizations
+Deploy and enjoy!
 
 Contact
 Email: kenenisagizaw.28@gmail.com
@@ -78,11 +61,3 @@ LinkedIn: linkedin.com/in/kenenisagizaw
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-
-
-
-
-
-
-
