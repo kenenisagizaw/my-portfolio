@@ -579,4 +579,7 @@ footer {
   .nav-links {
     display: none;
   }
+  .social-sidebar {
+    display: none;
+  }
 }
