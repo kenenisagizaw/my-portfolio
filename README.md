@@ -7,7 +7,7 @@
 
 ## 🖼️ Preview
 
-![Portfolio Screenshot](./assets/portfolio.png)
+![Portfolio Screenshot](./assets/my_portfolio.png)
 
 ---
 
